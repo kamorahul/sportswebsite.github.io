@@ -1,6 +1,67 @@
-<?php include("header.php");
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Lavin Indo Sports</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='//fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/responsiveslides.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+		  <script>
+		    // You can also use "$(window).load(function() {"
+			    $(function () {
 
-?>
+			      // Slideshow 1
+			      $("#slider1").responsiveSlides({
+			        maxwidth: 1600,
+			        speed: 600
+			      });
+			});
+		  </script>
+		  <script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+	</head>
+	<body>
+	<!---start-wrap---->
+		<!---start-header---->
+
+		<div class="header" id="top" style=" display:block; float:left; ">
+			<div class="wrap" style="border:0px solid yellow; float:left; width:1350px; border-bottom:3px solid #004080;">
+			<!---start-logo---->
+			<div class="logo" style="border:0px solid red; margin-top:-2px; float:left; margin-left:120px;">
+				<a href="index.html" ><img src="images/Society-Logo.jpg" title="logo" /></a>
+			</div>
+			<!---End-logo---->
+			<!---start-top-nav---->
+			<div class="top-nav" style="border:0px solid blue; float:right; width:850px;">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="vision.html">Vision</a></li>
+					<li><a href="plan.html">Strategic Plan</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+
+			<!---End-top-nav---->
+		</div>
+		<!---End-header---->
+	</div>
 	<!---start---content----->
 		<div class="wrap">
 		<div class="content">
@@ -23,7 +84,7 @@
 							 <img src="images/slider1.jpg" alt="" class="img-responsive"><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"> </h2> </div></a>
 							<h4>hendrerit mauris. Phasellus</h4>
 						</div>
-						
+
 						<div class="gallery-grid grid2">
 							<a href="images/slider3.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Image Title">
 							 <img src="images/slider3.jpg" alt="" class="img-responsive"><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03"> </h2> </div></a>
@@ -121,7 +182,7 @@
 						</div>
 					</div>
 <link rel="stylesheet" href="css/swipebox.css">
-	<script src="js/jquery.swipebox.min.js"></script> 
+	<script src="js/jquery.swipebox.min.js"></script>
 	    <script type="text/javascript">
 			jQuery(function($) {
 				$(".swipebox").swipebox();
@@ -130,7 +191,7 @@
 				    <div class="clear"> </div>
 				    <div class="projects-bottom-paination">
 						<ul>
-							<li><a href="gallery.php">1</a></li>
+							<li><a href="gallery.html">1</a></li>
 							<li  class="active"><a href="#">2</a></li>
 						</ul>
 					</div>
@@ -138,6 +199,59 @@
 			<!---End-gallery---->
 		</div>
 		</div>
-<?php include("footer.php");
+		<div class="boxs">
+						<div class="wrap">
+						<div class="box">
+							<h3>Fresh News</h3>
+							<span>20.08.2013</span>
+							<p>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. orem ipsum dolor sit amet, consectetur adipisicing quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat......	<a href="#">ReadMore</a></p>
+						</div>
+						<div class="box center-box">
+							<ul>
+								<li><a href="#">ullamco laboris nisi ut al nisi ut aliquip e</a></li>
+								<li><a href="#">nostrud exercitanisi ut aliquip etion ull</a></li>
+								<li><a href="#">aliquip ex ea nisi ut aliquip e commodo co</a></li>
+								<li><a href="#">orem ipsum dolor nisi ut aliquip e sit amet</a></li>
+								<li><a href="#">exercitationnisi ut aliquip e  ullamco laboris</a></li>
+							</ul>
+						</div>
+						<div class="box">
+							<h3>Did You Know?</h3>
+							<p>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. orem ipsum dolor sit amet, consectetur adipisicing quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat......	<a href="#">ReadMore</a></p>
+						</div>
+						<div class="clear"> </div>
+					</div>
+					<!---start-box---->
+				</div>
+				<!---End---content----->
+				<div class="clear"> </div>
+				<div class="footer">
+					<div class="wrap">
+					<div class="footer-left">
+						<p>Copyright &copy; 2017 lavin Indo Sports. All Rights Reserved <a href="http://w3layouts.com/"></a></p>
+					</div>
+					<div class="footer-right">
+						<ul>
+							<li><a href="#">Our Locations</a></li>
+							<li><a href="#">FAQ's</a></li>
+							<li><a href="#">Personal info</a></li>
+							<li><a href="#">Products</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">Our Locations</a></li>
+							<li><a href="#">FAQ's</a></li>
+							<li><a href="#">Personal info</a></li>
+							<li><a href="#">Products</a></li>
+						</ul>
+					</div>
+					<div class="clear"> </div>
 
-?>
+				</div>
+			</div>
+			<div class="clear"> </div>
+			<div class="top-link">
+				<a href="#top" class="scroll"> </a>
+			</div>
+			<!---End-wrap---->
+			</body>
+		</html>
